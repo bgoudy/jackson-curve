@@ -66,7 +66,8 @@ header::after {
 
 .nav-logo{
     float: left;
-    padding: 10px 10px;
+    padding: 10px 30px;
+    border-radius: 50%;
     /*margin-left: 50px;*/
 }
 
@@ -166,6 +167,7 @@ footer{
     height: 150px;
     margin-left: 100px;
     margin-top: 125px;
+    border-radius: 50%;
     
 }
 
@@ -189,5 +191,5 @@ footer{
 }
 
 .hm-pg-img {
-    margin-left: 150px;
+    margin-left: 125px;
 }
