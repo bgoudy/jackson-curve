@@ -8,62 +8,81 @@
         <title><!--Title that will appear in tab, possibly favicon--></title>
     </head>
     <body>
-        <nav class="navbar">
-            <div class="nav-logo">
-                <img src="../resources/images/test_logo_size.jpg">
+            <body>
+                    <header>
+                            <div class="navbar">
+                                <div class="nav-logo">
+                                    <img class="nav-logo" src="../resources/images/test_logo_size.jpg">
+                                </div>
+                                    <nav class="pg-tabs">
+                                        <ul class="pg-tabs">
+                                        <li><a href="../html-pages/index.html">Home</a></li>
+                                        <li><a class="hover" href="../html-pages/apartments.html">Apartments</a></li>
+                                        <li><a class="hover" href="../html-pages/amenities.html">Amenities</a></li>
+                                        <li><a class="hover" href="../html-pages/community.html">Community</a></li>
+                                        <li><a class="hover" href="../html-pages/contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </header>
+        <!--Main Body-->
+        <h1 class="head-ban">Amenities</h1>
+                <h5 class="head-ban2"><a href="../html-pages/index.html">HOME </a>/ AMENITIES</h5>
+                <br>
+                <br>
+        <div class="amenities-main">
+                
+            <div class="amenities">
+                <h3 class="amen-list-head">Design Features</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                </ul>
+                <br>
+                <br>
+                <div class="amenities-button">
+                        <input type="button" class="amenities-button" value="Amenities PDF">
+                    </div>
             </div>
-                <div class="pg-tabs">
-                        <ul class="pg-tabs">
-                                <li><a class="hover" href="../html-pages/home.html">Home</a></li>
-                                <li><a class="hover" href="../html-pages/apartments.html">Apartments</a></li>
-                                <li><a class="hover" href="../html-pages/amenities.html">Amenities</a></li>
-                                <li><a class="hover" href="../html-pages/community.html">Community</a></li>
-                                <li><a class="hover" href="../html-pages/contact.html">Contact</a></li>
-                            </ul>
-                </div>
+            <div class="amenities-img">
+                <img class="amen-rt-al-img" src="../resources/images/photo_gallery_test.jpg">
             </div>
-        </nav>
-            <!--
-                1. Logo aligned left - links back to home pg
-                2. Navbar attached to the top, floats down pg
-                3. Links to each pg
-                    a. Home
-                    b. Apartments
-                    c. Amenities
-                    d. Community
-                    e. Contact
-                4. Hover effect - shadow, font-color change - on.mouseOver js
-                5. Link to pg user is currently on should be highlighted in some way
-            -->
+        </div>
+
           
 <!--Back to Top Button float aligned bottom right-->
-        <footer>
-            <!--
-                1. Banner - sticks to bottom of pg
-                    a. Webb Development Logo - links to that site
-                    b. Pre-Leasing Message
-                    c. Clickable Phone # and Email
-                    d. Picture with filter that fades into bg color of banner
-                2. Footer - sticks to bottom of pg
-                    a. Copyright Message
-                    b. Sitemap
-                    c. Legal Disclaimer
-                    d. Link to business
-            -->
-            <div class="banner">
-                <div class="ban-logo">
-                    <!--Spot reserved for Webb Development logo, linked to Webb Development site-->
-                    <img src="#">
-                </div>
-                    <div class="ban-msg">
-                        <h3>Reserve Your Apartment Today!</h3>
-                        <h5>Call:</h5><a href="Phone #">(864)555-5555</a>
-                        <h5>Email:</h5><a href="Email">Larry@JacksonCurve.com</a>
-                    </div>
-                        <div class="ban-img">
-                            <img src="../resources/images/test_ban_img_size.jpg"> 
-                        </div>
+<!--Footer-->
+<div class="banner">
+        <div class="ban-logo">
+            
+            <img class="ban-logo" src="../resources/images/test_logo_size.jpg">
+        </div>
+            <div class="ban-msg">
+                <h3>Reserve Your Apartment Today!</h3>
+                <h5>Call:</h5><a href="Phone #">(864)555-5555</a>
+                <h5>Email:</h5><a href="Email">Larry@JacksonCurve.com</a>
             </div>
-        </footer>
-    </body>
+                <div class="ban-img">
+                    <img class="ban-img" src="../resources/images/test_ban_img_size.jpg"> 
+                </div>
+
+    </div>
+</body>
+    <footer class="footer"><p>&copy; Copyright 2019 JacksonCurve.com. All Rights Reserved.</p></footer>
+    <!--Add Links to legal disclaimer and Sitemap. Hold inline with copyright text - CSS.-->
+
 </html>

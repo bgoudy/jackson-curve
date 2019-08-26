@@ -1,59 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en/us">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <!--Links to stylesheet, js, API's, fonts-->
         <link rel="stylesheet" type="text/css" href="../resources/css/style.css">
-        <title><!--Title that will appear in tab, possibly favicon--></title>
+        <title>Jackson Curve</title>
     </head>
     <body>
-        <nav class="navbar">
-            <div class="nav-logo">
-                <img src="../resources/images/test_logo_size.jpg">
-            </div>
-                <div class="pg-tabs">
-                        <ul class="pg-tabs">
-                                <li><a class="hover" href="../html-pages/home.html">Home</a></li>
+            <header>
+                    <div class="navbar">
+                        <div class="nav-logo">
+                           <a href="../html-pages/index.html"><img class="nav-logo" src="../resources/images/test_logo_size.jpg"></a>
+                        </div>
+                            <nav class="pg-tabs">
+                                <ul class="pg-tabs">
+                                <li><a href="../html-pages/index.html">Home</a></li>
                                 <li><a class="hover" href="../html-pages/apartments.html">Apartments</a></li>
                                 <li><a class="hover" href="../html-pages/amenities.html">Amenities</a></li>
                                 <li><a class="hover" href="../html-pages/community.html">Community</a></li>
                                 <li><a class="hover" href="../html-pages/contact.html">Contact</a></li>
-                            </ul>
-                </div>
-            </div>
-        </nav>
-            <!--
-                1. Logo aligned left - links back to home pg
-                2. Navbar attached to the top, floats down pg
-                3. Links to each pg
-                    a. Home
-                    b. Apartments
-                    c. Amenities
-                    d. Community
-                    e. Contact
-                4. Hover effect - shadow, font-color change - on.mouseOver js
-                5. Link to pg user is currently on should be highlighted in some way
-            -->
-          
-<!--Back to Top Button float aligned bottom right-->
-        <footer>
-            <!--
-                1. Banner - sticks to bottom of pg
-                    a. Webb Development Logo - links to that site
-                    b. Pre-Leasing Message
-                    c. Clickable Phone # and Email
-                    d. Picture with filter that fades into bg color of banner
-                2. Footer - sticks to bottom of pg
-                    a. Copyright Message
-                    b. Sitemap
-                    c. Legal Disclaimer
-                    d. Link to business
-            -->
-            <div class="banner">
+                                </ul>
+                            </nav>
+                        </div>
+                    </header>
+
+    <div class="container">
+        <h1 class="head-ban">Apartments</h1>
+            <h5 class="head-ban2"><a href="../html-pages/index.html">HOME </a>/ APARTMENTS</h5>
+        <!--Floorplans - 8 floorplans displayed in a flexbox/grid centered on page
+        All floorplans will be able to popout and gray out page behind it-->
+    <h2 class="plan-head">Floorplans and Building Layout</h2>
+    <div class="plan-container">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+        <img class="plan-img" src="../resources/images/photo_gallery_test.jpg">
+    </div>    
+        <!--Overhead Layout of bulding-->
+        <img class="overhead" src="../resources/images/photo_gallery_test.jpg">
+    
+        <div class="banner">
                 <div class="ban-logo">
                     <!--Spot reserved for Webb Development logo, linked to Webb Development site-->
-                    <img src="#">
+                    <img class="ban-logo" src="../resources/images/test_logo_size.jpg">
                 </div>
                     <div class="ban-msg">
                         <h3>Reserve Your Apartment Today!</h3>
@@ -61,9 +55,12 @@
                         <h5>Email:</h5><a href="Email">Larry@JacksonCurve.com</a>
                     </div>
                         <div class="ban-img">
-                            <img src="../resources/images/test_ban_img_size.jpg"> 
+                            <img class="ban-img" src="../resources/images/test_ban_img_size.jpg"> 
                         </div>
+                    
             </div>
-        </footer>
     </body>
+            <footer class="footer"><p>&copy; Copyright 2019 JacksonCurve.com. All Rights Reserved.</p></footer>
+            <!--Add Links to legal disclaimer and Sitemap. Hold inline with copyright text - CSS.-->
+    
 </html>

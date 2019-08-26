@@ -1,0 +1,21 @@
+
+var ftGUID_3652114="41470CC50E5E0B";
+var ftConfID_3652114="0";
+var ftParams_3652114="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fgoogleads.g.doubleclick.net%2Fpagead%2Fads%3Fclient%3Dca-pub-3815729150977933%26output%3Dhtml%26h%3D280%26slotname%3D9658106404%26adk%3D63196945%26adf%3D1509643908%26w%3D336%26lmt%3D1566827722%26guci%3D2.2.0.0.2.2.0.0%26format%3D336x280%26url%3Dhttp%253A%252F%252Florempixel.com%252F%26flash%3D0%26wgl%3D1%26adsid%3DChAI8IaO6wUQoo6Wi_eU6oFWEkwAK4lHKkH9-9Da4-O9vJV1jX4SW6LYRlpCba9KZE6mLUjZXvh9wFa3LJ5N7f22xCpL-7HCw9UgpWp6ZJqsbXqZEXSqX4ryIaaH5yFH%26dt%3D1566827722345%26bpp%3D20%26bdt%3D264%26fdt%3D156%26idt%3D156%26shv%3Dr20190821%26cbv%3Dr20190131%26saldr%3Daa%26abxe%3D1%26correlator%3D6628038953718%26frm%3D20%26pv%3D2%26ga_vid%3D888152066.1559672436%26ga_sid%3D1566827723%26ga_hid%3D1721884974%26ga_fc%3D0%26iag%3D0%26icsg%3D15103%26dssz%3D12%26mdo%3D0%26mso%3D0%26u_tz%3D-240%26u_his%3D2%26u_java%3D0%26u_h%3D864%26u_w%3D1536%26u_ah%3D824%26u_aw%3D1536%26u_cd%3D24%26u_nplug%3D3%26u_nmime%3D4%26adx%3D85%26ady%3D783%26biw%3D1081%26bih%3D736%26scr_x%3D0%26scr_y%3D0%26eid%3D4089042&cachebuster=464831.2153750864";
+var ftKeyword_3652114="";
+var ftCustom_3652114="";
+var ftSection_3652114="";
+var ftSegment_3652114="w2b,xtx,tg1,x4m,xnk,y32,v6j,xqq";
+var ftSegmentList_3652114=[{s:'w2b'},{s:'xtx'},{s:'tg1'},{s:'x4m'},{s:'xnk'},{s:'y32'},{s:'v6j'},{s:'xqq'}];
+var ftRuleMatch_3652114="0";
+var ftTimestamp_3652114="1566828076";
+var ftImp3652114 = {};
+ftImp3652114.privacy = "x";
+ftImp3652114.guidAge = "108";
+ftImp3652114.impID = "D45BFF1E-3D28-A736-13FB-60F112BE4C6D";
+ftImp3652114.duid = "FT:41470CC50E5E0B";
+
+ftImp3652114.ft_tpplid = "";
+ftImp3652114.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/365/3652114/2699164/js/j-3652114-2699164.js" id="ftscript_m3652114" name="ftscript_m3652114"></scr'+'ipt>');
