@@ -60,7 +60,7 @@ header::after {
 .nav-logo{
     float: left;
     padding: 10px 30px;
-    border-radius: 50%;
+    width: 100px;
     /*margin-left: 50px;*/
 }
 
@@ -100,9 +100,8 @@ nav a:hover::before{
 }
 
 .animation {
-    position: relative;
     width: 85%;
-    margin-top: 100px;
+    margin-top: 125px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
@@ -134,7 +133,7 @@ footer{
 
 .banner {
     background: darkgreen;
-    height: 300px;
+    height: 250px;
     width: 100%;
     display: flex;
 }
@@ -156,37 +155,41 @@ footer{
 
 .ban-logo {
     float: left;
-    width: 150px;
-    height: 150px;
-    margin-left: 100px;
-    margin-top: 25px;
-    border-radius: 50%;    
+    /*width: 150px;*/
+    height: 230px;
+    margin-left: 75px;
+    margin-top: 0;
 }
 
 .ban-msg {
    /* float: right; */
+    position: static;
     text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
     line-height: 30px;
     text-decoration: none;
 }
-
+/*
 .ban-msg a {
+    position: static;
     margin-left: 400px;
     text-decoration: none;
     color: whitesmoke;
 }
-
+*/
 .ban-img {
     position: static;
     float: right;
     /*margin-top: -135px;*/
-    margin-left: 150px;
-    height: 300px;
+    margin-left: 120px;
+    height: 250px;
     /*width: auto;*/    
 }
 
 .head-ban {
     margin-top: 125px;
+    margin-bottom: 0;
     width: 100%;
     height: 50px;
     text-align: center;
@@ -194,7 +197,7 @@ footer{
 }
 
 .head-ban2 {
-    margin-top: 0px;
+    margin: 0px;
     width: 100%;
     height: 50px;
     text-align: center;
@@ -212,16 +215,51 @@ footer{
     margin-left: 125px;
 }
 /*Apartment Page specific*/
+.head-ban2{
 
+}
 .plan-container {
     display: flex;
+    flex-direction: column;
     flex-flow: wrap;
-    margin: 80px;
+    margin: 60px 150px;
     /*display: grid;
     grid-template-columns: repeat(auto-fit);
     grid-column-gap: 25px;*/
 }
 
+.apt-content{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin: 60px 100px;
+    padding: 100px;
+    background: slategray;
+    text-align: justify;
+}
+.apt-con-container{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    order: 1;
+    margin-top: 20px;
+    width: 50%;
+    /*margin-right: 600px;*/
+    font-size: 24px;
+    font-weight: 400;
+}
+.apt-ul-container{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    order: 2;
+    margin: 20px 75px;
+    width: 30%;
+    /*margin-left: 600px;*/
+    font-size: 24px;
+    font-weight: 400;
+
+}
 .plan-head {
     margin-top: 60px;
     margin-bottom: 0;
@@ -233,6 +271,7 @@ footer{
 
 .overhead {
     display: block;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -246,12 +285,19 @@ footer{
 }
 
 .amenities {
-    width: 20%;
-    margin: 40px;
+    width: 30%;
+    margin: 40px;    
     padding: 100px;
     font-size: 18px;
     line-height: 30px;
     background: slategray;
+}
+
+.amenities-content {
+    margin: 0;    
+    background: slategray;
+    padding: 40px;
+    font-size: 24px;
 }
 
 .amenities ul {
@@ -262,6 +308,9 @@ footer{
     margin-bottom: 25px;
 }
 
+.disclaimer {
+    font-size: 14px;
+}
 .amenities-img {
     width: 50%;
     margin: 0;
@@ -270,25 +319,26 @@ footer{
 
 .amen-rt-al-img {
     height: 100%;
+    width: 700px;
 }
 
 .amenities-button {
-    display: block;
+    display: inline-block;
     /*margin-top: 30px;*/
     margin-left: auto;
     margin-right: auto;
-    padding: 1px 0px 1px 0px;
+    padding: 10px 15px 10px 15px;
     font-size: 18px;
     border-radius: 8px;
     text-align: center;
-    line-height: 30px;
+    /*line-height: 30px;*/
     background-color: darkgreen;
     text-decoration: none;
-    border: none;    
+    border: none; 
 }
 
 .amenities-button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 50px 75px, rgba(112, 128, 144, .3);
   }
 
   /*Community Page Specific*/
@@ -332,23 +382,34 @@ footer{
 }
 
 .contact-instr {
-    width: 450px;
+    width: auto;
     text-align: justify;
     margin: auto;
 }
 
 .contact-info {
-    text-align: right;
-    margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 25px;
     padding: 20px;
-    line-height: 24px;
+    /*line-height: 24px;*/
+    /*position: static;
+    text-align: center;*/
+    margin-top: 25px;
+    margin-right: 150px;
+    /*margin-left: 200px;*/
+    line-height: 30px;
+    text-decoration: none;
 }
 
 .contact-form {
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
-    margin-top: 200px    
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 60px;
+    border: solid 1px;
+
 }
 
 .contact-form input{
